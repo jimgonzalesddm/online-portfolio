@@ -1,0 +1,73 @@
+/*CSS reset*/
+* {
+	margin : 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+
+/*targets the html element body*/
+body {
+	background-image: url(../images/bg.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #f2f2f2; /*off-white*/
+	font-family: 'B612 Mono', monospace;
+}
+/*end of body styling*/
+
+/*targets the html element h1*/
+h1 {
+	font-size: 50px;
+	background-color: #333; /*off-black*/
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	letter-spacing: 3px;
+}
+/*end of h1 styling*/
+
+/*start h2 element*/
+h2 {
+	color : yellow;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-bottom:  15px;
+	background-color: #333;
+	padding: 10px;
+	border-radius: 10px;
+}
+/*end of h2*/
+
+/*targets the html class attribute bio*/
+.bio {
+	font-size: 18px;
+	line-height: 1.75;
+	/*background-color: #333;
+	opacity: 0.5;*/
+	background-color: rgba(50,50,50, 0.9);
+}
+/*end of bio*/
+
+/*targets the html id attribute me*/
+#me {
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	border-width: 5px;
+	border-color: lightyellow;
+	border-style: hidden;
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+/*end of me*/
+
+/*targets class container*/
+.container {
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+/*end of class container*/
