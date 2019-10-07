@@ -7259,45 +7259,17 @@ Created using IcoMoon - icomoon.io
   color: #fff;
 }
 
-/* References Style */
-.cc-reference .card {
-  padding: 40px;
+/* Researches Style */
+.cc-researches-right {
+  background-color: rgb(173, 108, 9); 
 }
 
-.cc-reference img {
-  height: 120px;
-  width: auto;
+.cc-researches .cc-researches-header {
+  padding-top: 40px;
+  padding-right: 0;
+  text-align: center;
+  color: #fff;
 }
-
-.cc-reference .h5 {
-  margin: 0;
-}
-
-.cc-reference .carousel-indicators li {
-  background: #a5a3a3;
-}
-
-.cc-reference .carousel-indicators .active {
-  background-color: #378C3F;
-}
-
-.cc-reference .carousel-inner {
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
-
-@media (max-width: 768px) {
-  .cc-reference .cc-reference-header {
-    text-align: center;
-  }
-  .cc-reference .carousel-indicators {
-    bottom: 0px;
-  }
-  .cc-reference ol {
-    margin-bottom: 0;
-  }
-}
-
 /* Contact Information Style */
 .cc-contact {
   padding-left: 450px;
@@ -7307,7 +7279,7 @@ Created using IcoMoon - icomoon.io
   position: relative;
   overflow: hidden;
   /*background-image: url('images/pic2.jpg')*/;
-  background-position: right;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
